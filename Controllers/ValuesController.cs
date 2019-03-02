@@ -44,7 +44,7 @@ namespace hpaApi.Controllers
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
-            return "value"+id;
+            return "接受值"+id;
         }
 
         // POST api/values
