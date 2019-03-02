@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: k8s-api
-        image: 	registry.cn-shanghai.aliyuncs.com/lingbohome/k8s-api
+        image: 	registry.cn-shanghai.aliyuncs.com/lingbohome/k8s-api:0.03
         resources: 
           requests:
             cpu: 200m
